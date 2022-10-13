@@ -1,0 +1,48 @@
+node-array-uniq (2.1.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 13
+  * Modernize debian/watch
+  * Fix GitHub tags regex
+  * Fix filenamemangle
+  * Use dh-sequence-nodejs instead of pkg-js-tools
+  * Update standards version to 4.6.0, no changes needed
+  * Drop dependency to nodejs
+
+ -- Yadd <yadd@debian.org>  Mon, 08 Nov 2021 17:34:36 +0100
+
+node-array-uniq (2.1.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Utkarsh Gupta ]
+  * New upstream version 2.0.0
+  * Add patch to use mocha
+  * Bump Standards-Version to 4.3.0
+  * Bump debhelper compatibility level to 11
+  * Switch test to pkg-js-tools
+  * Add d/upstream/metadata
+  * Add myself as an uploader
+  * Update d/copyright
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+  * Update standards version to 4.4.1, no changes needed.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * New upstream version 2.1.0
+  * Use tape for test
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 28 Apr 2020 11:55:39 +0200
+
+node-array-uniq (1.0.3-1) unstable; urgency=low
+
+  * Initial release (Closes: #842724)
+
+ -- Suhail P <psuhailp@gmail.com>  Mon, 31 Oct 2016 17:53:05 +0000

@@ -1,0 +1,26 @@
+Source: node-array-uniq
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Suhail P <psuhailp@gmail.com>,
+           Utkarsh Gupta <guptautkarsh2102@gmail.com>
+Build-Depends: debhelper-compat (= 13)
+ , node-tape <!nocheck>
+ , dh-sequence-nodejs
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-array-uniq
+Vcs-Git: https://salsa.debian.org/js-team/node-array-uniq.git
+Homepage: https://github.com/sindresorhus/array-uniq
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
+
+Package: node-array-uniq
+Architecture: all
+Depends: ${misc:Depends}
+Multi-Arch: foreign
+Description: Create an array without duplicates
+ This module creates an array without duplicates. It is
+ already pretty fast, but will be much faster when Set
+ becomes available in V8 (especially with large arrays).
+ .
+ Node.js is an event-based server-side JavaScript engine.
